@@ -8,7 +8,7 @@
 
 User.destroy_all
 
-User.create(first_name: "Marcos", last_name: "Velasco", username: "marcos123", password_digest: "password", preditctionsGS: ["A1", "B3", "C2"])
+User.create(first_name: "Marcos", last_name: "Velasco", username: "marcos123", password_digest: "password", predictionsGS: ["A1", "B3", "C2"])
 
 # Creates default users
 # users = [
@@ -26,3 +26,5 @@ User.create(first_name: "Marcos", last_name: "Velasco", username: "marcos123", p
 
 #   User.create(name: name, username: username, password: password)
 # end
+
+puts "Succesfull Seed!!"
