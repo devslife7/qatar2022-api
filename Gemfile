@@ -46,3 +46,14 @@ group :development do
   # gem "spring"
 end
 
+# Using rest client for making API calls
+gem 'rest-client'
+
+# Using JSON to parse json
+gem 'json'
+
+# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+gem 'rack-cors'
+
+# Enables dotEnv variables
+gem 'dotenv-rails'
