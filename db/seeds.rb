@@ -10,6 +10,8 @@ User.destroy_all
 
 User.create(first_name: "Marcos", last_name: "Velasco", username: "marcos123", password_digest: "password", predictionsGS: ["A1", "B3", "C2"])
 
+# User.create(first_name: "Cesar", last_name: "Valencia", username: "cesar123", password_digest: "password", predictionsGS: ["A3", "B2", "C1"])
+
 # Creates default users
 # users = [
 #   "Guest", "Marcos", "Andy", "Danny", "Dave", "David", "Shannon", "Solomon",
