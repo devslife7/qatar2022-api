@@ -12,6 +12,14 @@ users = [
   { first_name: "Marcos", last_name: "Velasco" },
   { first_name: "Cesar", last_name: "Valensia" },
   { first_name: "Grabriel", last_name: "Osorio" },
+  { first_name: "Carlos", last_name: "Padilla" },
+  { first_name: "Ernesto", last_name: "Farfan" },
+  { first_name: "Luis", last_name: "Omana" },
+  { first_name: "Orlando", last_name: "Duran" },
+  { first_name: "Jose", last_name: "Gastelu" },
+  { first_name: "Jose", last_name: "Duran" },
+  { first_name: "Javier", last_name: "Garamendi" },
+  { first_name: "Claudia", last_name: "Colbow" },
 ]
 
 def randomPredictions
