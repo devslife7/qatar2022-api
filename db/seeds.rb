@@ -23,6 +23,7 @@ users = [
   { first_name: "Antonio", last_name: "El Incha" },
   { first_name: "Guzman", last_name: "Valencia" },
   { first_name: "Juan", last_name: "Carlos" },
+  { first_name: "Isabel", last_name: "Zeballos" },
 ]
 
 def randomPredictions
