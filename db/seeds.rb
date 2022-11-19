@@ -10,7 +10,7 @@ User.destroy_all
 
 users = [
   { first_name: "Marcos", last_name: "Velasco" },
-  { first_name: "Cesar", last_name: "Valensia" },
+  { first_name: "Cesar", last_name: "Valencia" },
   { first_name: "Grabriel", last_name: "Osorio" },
   { first_name: "Carlos", last_name: "Padilla" },
   { first_name: "Ernesto", last_name: "Farfan" },
@@ -20,6 +20,9 @@ users = [
   { first_name: "Jose", last_name: "Duran" },
   { first_name: "Javier", last_name: "Garamendi" },
   { first_name: "Claudia", last_name: "Colbow" },
+  { first_name: "Antonio", last_name: "El Incha" },
+  { first_name: "Guzman", last_name: "Valencia" },
+  { first_name: "Juan", last_name: "Carlos" },
 ]
 
 def randomPredictions
