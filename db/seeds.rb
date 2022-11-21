@@ -189,6 +189,11 @@ users = [
     last_name: "Duran",
     predictionsGS: ["TIE", "B1", "A4", "B3", "C1", "D3", "C3", "D1", "F4", "E3", "TIE", "F1", "TIE", "H3", "H1", "G1", "TIE", "TIE", "A4", "B1", "D2", "TIE", "D1", "C1", "E2", "TIE", "F4", "E3", "G4", "H4", "G1", "H1", "TIE", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "F2", "TIE", "E3", "E1", "H3", "H1", "G1", "TIE"],
   },
+  {
+    first_name: "Brian",
+    last_name: "",
+    predictionsGS: ["A2", "B1", "A4", "B4", "C1", "D3", "C3", "D1", "F4", "E3", "E1", "F1", "G3", "H3", "H1", "G1", "B4", "A3", "A4", "B1", "D2", "C4", "D1", "TIE", "E4", "F1", "F4", "E1", "G2", "H4", "G1", "H3", "A3", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "F2", "F1", "E3", "E1", "H3", "H1", "G1", "G3"],
+  },
 ]
 
 def randomPredictions
