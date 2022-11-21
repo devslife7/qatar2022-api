@@ -164,11 +164,31 @@ users = [
     last_name: "Calbow",
     predictionsGS: ["A2", "B1", "A4", "B3", "C1", "D3", "C4", "D1", "F4", "E3", "E1", "F1", "G4", "H3", "H1", "G1", "B4", "A3", "A4", "B1", "D2", "C4", "D1", "C1", "E2", "F1", "F4", "E3", "G2", "H2", "G1", "H1", "A3", "A4", "B1", "B3", "D2", "D1", "C1", "C3", "F2", "F4", "E3", "E1", "H3", "H1", "G1", "G2"],
   },
-# {
-#   first_name: "FIRSTNAME",
-#   last_name: "LASTNAME",
-#   predictionsGS: 999999999,
-# },
+  {
+    first_name: "Nataly",
+    last_name: "Chile",
+    predictionsGS: ["A2", "B1", "TIE", "B3", "C1", "D3", "TIE", "D1", "F4", "E3", "E1", "F1", "G3", "H3", "H1", "G1", "TIE", "A3", "A4", "TIE", "D2", "C4", "D1", "C1", "TIE", "F1", "F4", "E1", "TIE", "H2", "G1", "TIE", "TIE", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "F3", "TIE", "E3", "E1", "H3", "H1", "G1", "G3"],
+  },
+  {
+    first_name: "Isabell",
+    last_name: "Zeballos",
+    predictionsGS: ["A2", "B1", "A4", "TIE", "C1", "D3", "TIE", "D1", "F4", "E3", "E1", "F1", "G3", "H3", "H1", "G1", "B4", "A3", "A4", "B1", "D2", "C4", "TIE", "C1", "TIE", "F1", "F2", "E3", "G2", "H2", "G1", "H1", "TIE", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "TIE", "F1", "E3", "E1", "H3", "H1", "G1", "TIE"],
+  },
+  {
+    first_name: "Jose",
+    last_name: "Gastelu",
+    predictionsGS: ["A2", "B1", "A3", "B3", "C1", "TIE", "C3", "D1", "TIE", "E3", "E1", "TIE", "G4", "H3", "H1", "G1", "B4", "A1", "A2", "B1", "D2", "C4", "D1", "C1", "E4", "F1", "F2", "E3", "TIE", "H2", "G1", "H1", "A2", "A1", "B1", "B3", "D3", "D1", "C1", "C3", "F2", "F4", "E3", "E1", "H3", "H1", "G1", "G2"],
+  },
+  {
+    first_name: "Javier",
+    last_name: "Garamendi",
+    predictionsGS: ["A1", "B1", "A3", "B3", "C1", "D4", "TIE", "TIE", "TIE", "E3", "TIE", "F2", "TIE", "H3", "TIE", "G1", "TIE", "TIE", "TIE", "B1", "D2", "C2", "D1", "C1", "E4", "TIE", "F4", "E3", "G4", "H2", "G1", "H1", "TIE", "A1", "B1", "B3", "D3", "TIE", "C1", "TIE", "TIE", "F1", "E2", "E4", "H3", "TIE", "G1", "G2"],
+  },
+  {
+    first_name: "Jose",
+    last_name: "Duran",
+    predictionsGS: ["TIE", "B1", "A4", "B3", "C1", "D3", "C3", "D1", "F4", "E3", "TIE", "F1", "TIE", "H3", "H1", "G1", "TIE", "TIE", "A4", "B1", "D2", "TIE", "D1", "C1", "E2", "TIE", "F4", "E3", "G4", "H4", "G1", "H1", "TIE", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "F2", "TIE", "E3", "E1", "H3", "H1", "G1", "TIE"],
+  },
 ]
 
 def randomPredictions
