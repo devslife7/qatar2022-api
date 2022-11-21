@@ -1,6 +1,6 @@
 class ApiCallsController < ApplicationController
   def fixtures
-    url = "https://api-football-v1.p.rapidapi.com/v3/fixtures?date=2021-04-19"
+    url = "https://api-football-v1.p.rapidapi.com/v3/fixtures?league=1&season=2022"
     headers = { "X-RapidAPI-Key": ENV["API_KEY"] }
     response = RestClient::Request.execute(
       :url => url,
@@ -12,34 +12,25 @@ class ApiCallsController < ApplicationController
 
     # render json: data["response"]
 
-    fixtures = data["response"].slice(0, 48)
+    fixtures = data["response"]
 
     render json: fixtures
 
-    # user.projects.each do |project|
-    #   5.times do
-    #     milestone = Milestone.create(
-    #       name: "#{Faker::Space.unique.meteorite} Milestone",
-    #       progress: 0,
-    #       hours: 0,
-    #       start_date: rand(yearBeginning..yearMiddle),
-    #       end_date: rand(yearMiddle..yearEnd),
-    #       project_id: project.id,
-    #     )
-    #     project.milestones << milestone
-    #   end
-    # end
+    # url = "https://api-football-v1.p.rapidapi.com/v3/fixtures?date=2021-04-19"
+    # headers = { "X-RapidAPI-Key": ENV["API_KEY"] }
+    # response = RestClient::Request.execute(
+    #   :url => url,
+    #   :method => :get,
+    #   :headers => headers,
+    #   :verify_ssl => false,
+    # )
+    # data = JSON.parse(response)
 
-    # if data
-    #   matches = data["response"]
+    # # render json: data["response"]
 
-    #   # popular_league_ids = [2771, 2833, 1264, 2790, 2755, 2857, 2777, 2664, 2656] old
-    #   popular_league_ids = [140, 253, 39, 78, 135, 848, 61, 262, 2]
-    #   filteredMatches = matches.select { |match| popular_league_ids.include?(match["league"]["id"]) }
+    # fixtures = data["response"].slice(0, 48)
 
-    #   render json: filteredMatches, status: :ok
-    # else
-    #   render json: data.errors, status: :unprocessable_entity
-    # end
+    # render json: fixtures
+
   end
 end

@@ -9,21 +9,101 @@
 User.destroy_all
 
 users = [
-  { first_name: "Marcos", last_name: "Velasco" },
-  { first_name: "Cesar", last_name: "Valencia" },
-  { first_name: "Grabriel", last_name: "Osorio" },
-  { first_name: "Carlos", last_name: "Padilla" },
-  { first_name: "Ernesto", last_name: "Farfan" },
-  { first_name: "Luis", last_name: "Omana" },
-  { first_name: "Orlando", last_name: "Duran" },
-  { first_name: "Jose", last_name: "Gastelu" },
-  { first_name: "Jose", last_name: "Duran" },
-  { first_name: "Javier", last_name: "Garamendi" },
-  { first_name: "Claudia", last_name: "Colbow" },
-  { first_name: "Antonio", last_name: "El Incha" },
-  { first_name: "Guzman", last_name: "Valencia" },
-  { first_name: "Juan", last_name: "Carlos" },
-  { first_name: "Isabel", last_name: "Zeballos" },
+  {
+    first_name: "Marcos",
+    last_name: "Velasco",
+    predictionsGS: ["TIE", "B1", "A4", "B3", "C1", "D3", "C3", "D1", "F4", "E3", "E1", "F1", "G3", "H3", "H1", "G1", "B2", "A3", "A4", "B1", "D4", "C4", "D1", "C1", "TIE", "F1", "TIE", "E3", "G4", "H2", "G1", "H1", "TIE", "A4", "B1", "B3", "D3", "D1", "C1", "TIE", "F2", "F1", "E3", "E1", "H3", "H1", "G1", "G3"],
+  },
+  {
+    first_name: "Cesar",
+    last_name: "Valencia",
+    predictionsGS: ["A2", "B1", "A4", "TIE", "C1", "D3", "C4", "D1", "F4", "E3", "E1", "F1", "G3", "H3", "H1", "G1", "B4", "A3", "A4", "B1", "TIE", "C4", "D1", "C1", "TIE", "F1", "F4", "E1", "TIE", "H2", "G1", "H3", "A3", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "F2", "F1", "E3", "E1", "TIE", "H1", "G1", "G3"],
+  },
+  {
+    first_name: "Guzman",
+    last_name: "Alonzo",
+    predictionsGS: ["A2", "B1", "A4", "B4", "C1", "D3", "C4", "D1", "F4", "E3", "E1", "F1", "TIE", "H3", "H1", "G1", "B4", "A3", "A4", "B1", "D2", "C4", "D1", "C1", "E4", "F1", "F4", "E3", "TIE", "H4", "G1", "H3", "TIE", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "F2", "F1", "E3", "E1", "H3", "TIE", "G1", "TIE"],
+  },
+  {
+    first_name: "Grabriel",
+    last_name: "Osorio",
+    predictionsGS: ["TIE", "B1", "A4", "TIE", "C1", "D3", "TIE", "D1", "F4", "E3", "E1", "F1", "G3", "H3", "H1", "G1", "B4", "TIE", "A4", "B1", "TIE", "C4", "D1", "C1", "E2", "F1", "F4", "E3", "G2", "TIE", "G1", "TIE", "A2", "A4", "B1", "B3", "TIE", "D1", "C1", "C3", "F2", "TIE", "E3", "E1", "H3", "H1", "G1", "G2"],
+  },
+  {
+    first_name: "Oscar",
+    last_name: "Conseco",
+    predictionsGS: ["A2", "B1", "A4", "B3", "C1", "D3", "C3", "D1", "F4", "E3", "E1", "F1", "G4", "H3", "H1", "G1", "B2", "A1", "A4", "B3", "D2", "C4", "D1", "C1", "E4", "F1", "F2", "E3", "G4", "H2", "G1", "H3", "A2", "A1", "B1", "B3", "D2", "D1", "C1", "C3", "TIE", "F1", "E3", "E1", "H3", "H1", "G1", "G2"],
+  },
+  {
+    first_name: "Antonio",
+    last_name: "Huayta",
+    predictionsGS: ["A2", "B1", "A4", "TIE", "C1", "D3", "C4", "D1", "TIE", "E3", "E1", "F1", "TIE", "H3", "H1", "G1", "B4", "A3", "A4", "B1", "TIE", "C4", "D1", "C1", "E2", "F1", "F4", "E3", "G2", "H2", "G1", "H3", "A3", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "F3", "F1", "E3", "E1", "TIE", "H1", "G1", "G2"],
+  },
+  {
+    first_name: "Diana",
+    last_name: "Mendez",
+    predictionsGS: ["TIE", "B1", "A4", "B3", "C1", "D3", "C4", "D1", "F4", "E3", "E1", "F1", "G4", "H3", "H1", "G1", "B4", "A1", "A4", "B1", "D4", "C4", "D1", "C1", "E2", "F1", "F4", "E3", "G4", "H2", "G1", "H1", "A3", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "F2", "TIE", "E3", "E1", "H3", "H1", "G1", "G3"],
+  },
+  {
+    first_name: "Orlando",
+    last_name: "Duran",
+    predictionsGS: ["A2", "B1", "A4", "B3", "C1", "D3", "C4", "D1", "F4", "E3", "E1", "F1", "G3", "H3", "H1", "G1", "B2", "A3", "A2", "TIE", "D2", "C4", "D1", "C1", "E4", "F1", "F4", "E3", "G4", "H2", "G1", "H1", "A3", "A4", "B1", "B3", "D3", "D1", "C1", "C3", "F2", "F4", "E3", "E1", "H3", "H1", "G1", "G3"],
+  },
+  {
+    first_name: "Carlos",
+    last_name: "PadillaCPC",
+    predictionsGS: ["A2", "B1", "A4", "B3", "C1", "D3", "C4", "D1", "F4", "TIE", "E1", "TIE", "TIE", "H3", "H1", "G1", "TIE", "A1", "A4", "TIE", "D2", "TIE", "D1", "C1", "E4", "F1", "TIE", "E3", "G2", "H2", "G1", "H1", "A2", "A4", "B1", "B3", "TIE", "D1", "TIE", "TIE", "F2", "TIE", "E3", "E4", "TIE", "H1", "G1", "TIE"],
+  },
+  {
+    first_name: "Carlos",
+    last_name: "PadillaJR",
+    predictionsGS: ["TIE", "B1", "A4", "B3", "C1", "TIE", "TIE", "D1", "F4", "TIE", "E1", "F1", "G3", "H3", "H1", "G1", "B2", "A1", "TIE", "B1", "D2", "C4", "D1", "C1", "E4", "TIE", "F4", "E3", "G2", "H2", "G1", "TIE", "A2", "A4", "B1", "TIE", "D3", "D1", "C1", "C3", "F2", "F4", "E3", "TIE", "TIE", "H1", "G1", "TIE"],
+  },
+# {
+#   first_name: "Ernesto",
+#   last_name: "Farfan",
+#   predictionsGS:
+# },
+# {
+#   first_name: "Luis",
+#   last_name: "Omana",
+#   predictionsGS:
+# },
+# {
+#   first_name: "Jose",
+#   last_name: "Gastelu",
+#   predictionsGS:
+# },
+# {
+#   first_name: "Jose",
+#   last_name: "Duran",
+#   predictionsGS:
+# },
+# {
+#   first_name: "Javier",
+#   last_name: "Garamendi",
+#   predictionsGS:
+# },
+# {
+#   first_name: "Claudia",
+#   last_name: "Colbow",
+#   predictionsGS:
+# },
+# {
+#   first_name: "Guzman",
+#   last_name: "Valencia",
+#   predictionsGS:
+# },
+# {
+#   first_name: "Juan",
+#   last_name: "Carlos",
+#   predictionsGS:
+# },
+# {
+#   first_name: "Isabel",
+#   last_name: "Zeballos",
+#   predictionsGS:
+# },
 ]
 
 def randomPredictions
@@ -46,11 +126,11 @@ def randomPredictions
 end
 
 users.each do |user|
-  predictionsGS = randomPredictions()
+  # predictionsGS = randomPredictions()
 
   username = "#{user[:first_name].downcase}123"
 
-  User.create(first_name: user[:first_name], last_name: user[:last_name], username: username, password_digest: "password", predictionsGS: predictionsGS)
+  User.create(first_name: user[:first_name], last_name: user[:last_name], username: username, password_digest: "password", predictionsGS: user[:predictionsGS])
 end
 
 # User.create(first_name: "Marcos", last_name: "Velasco", username: "marcos123", password_digest: "password", predictionsGS: ["A1", "B3", "C2"])
