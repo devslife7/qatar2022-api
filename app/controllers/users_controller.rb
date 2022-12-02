@@ -7,7 +7,7 @@ class UsersController < ApplicationController
 
       render json: { user: user }
     else
-      render json: { error: user.errors }
+      render json: { error: user }
     end
   end
 
