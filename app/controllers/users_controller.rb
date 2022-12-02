@@ -11,6 +11,12 @@ class UsersController < ApplicationController
     end
   end
 
+  def usersAll
+    users = User.all
+
+    render json: { users: users }
+  end
+
   private
 
   def user_params
