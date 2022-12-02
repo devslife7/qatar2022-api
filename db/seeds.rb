@@ -206,5 +206,11 @@ users = [
   },
 ]
 
+users.each do |user|
+  username = "#{user[:first_name].downcase}123"
+
+  User.create(first_name: user[:first_name], last_name: user[:last_name], username: username, password_digest: "password", predictionsGS: user[:predictionsGS])
+end
+
 puts "Users count: #{users.length}"
 puts "Succesfull Seed!!"
